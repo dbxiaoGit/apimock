@@ -1,0 +1,29 @@
+server:
+  port: 8001
+
+app:
+  name: apimock
+
+spring:
+  jmx:
+    default-domain:
+    enabled: true
+    server:
+
+peopleInfos:
+  peopleList:
+    - name: 张三
+      age: 19
+      companyName: xx科技有限公司
+      department: 研发部
+      role: 前端开发
+    - name: 李四
+      age: 20
+      companyName: xx科技有限公司
+      department: 研发部
+      role:  后端开发
+    - name: 王五
+      age: 21
+      companyName: xx科技有限公司
+      department: 研发部
+      role: 测试
